@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>TE AMO</title>
-		<link rel="icon" href="logo.png">
+		<link rel="icon" href="logo-navidad.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -38,12 +38,18 @@
 			}
 
 			.main {
-				background-color: var(--sx-color);
-				width: 100vw;
+				background-image: url(./fondo-navidad.png);
+				background-position: center;
+				width: 100%;
+				min-width: 320px;
+				max-width: 900px;
 				height: 100vh;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				text-align: center;
 			}
 
 			.container-main {
@@ -85,6 +91,7 @@
 				border: none;
 				font-size: 2rem;
 				font-family: 'Rubik Wet Paint', cursive;
+				color: #ffffff;
 			}
 
 			button:hover {
@@ -98,7 +105,7 @@
 		<main class="main">
 			<div class="container-main">
 				<img
-					src="logo.png"
+					src="logo-navidad.png"
 					alt="pic-profile" />
 
 				<div class="container-buttons">
